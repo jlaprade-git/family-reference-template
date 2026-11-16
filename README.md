@@ -6,6 +6,19 @@ It runs fully offline: the editor is bundled, nothing is loaded from the interne
 
 No Docker needed. This guide installs it directly on a Raspberry Pi.
 
+## Screenshots
+
+| Pick a person | Home page |
+|---|---|
+| ![Landing page](docs/screenshots/01-landing.png) | ![Person home page](docs/screenshots/02-person-home.png) |
+
+| Notify list | Legal and estate |
+|---|---|
+| ![First steps page](docs/screenshots/03-first-steps.png) | ![Legal and estate page](docs/screenshots/04-legal.png) |
+
+Every page has an **Edit Page** button (type directly in the browser, then Save) and a
+**Print All** button that builds one printable document per person.
+
 ## What is in the folder
 - `wiki/` - the site itself (HTML, CSS, bundled editor). Your edits are saved here.
 - `server.py` - the small Python (Flask) web server

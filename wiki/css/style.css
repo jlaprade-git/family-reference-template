@@ -400,3 +400,6 @@ li { margin-bottom: 0.25rem; }
   }
   .card-grid { grid-template-columns: 1fr; }
 }
+
+/* Readable links inside callout boxes */
+.crit-box a, .info-box a, .warn-box a { color: var(--green); }
