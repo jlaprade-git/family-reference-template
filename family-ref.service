@@ -1,0 +1,14 @@
+[Unit]
+Description=Family Reference site
+After=network.target
+
+[Service]
+# Edit User and the paths below to match where you unpacked this folder.
+User=pi
+WorkingDirectory=/home/pi/family-ref
+ExecStart=/usr/bin/python3 /home/pi/family-ref/server.py
+Environment=WIKI_PORT=8080
+Restart=on-failure
+
+[Install]
+WantedBy=multi-user.target
